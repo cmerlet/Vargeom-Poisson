@@ -20,9 +20,9 @@ The input file should provide the following information
 
 2. Value to indicate the existence of dipoles: 
 
-0 if no dipoles, 1 if dipoles
+      0 if no dipoles, 1 if dipoles
 
-Supplementary line if there are dipoles: name of the dipoles' file /space/ number of columns (3 if just dipoles, 4 if indices in the first column)
+      Supplementary line if there are dipoles: name of the dipoles' file /space/ number of columns (3 if just dipoles, 4 if indices in the first column)
 
 3. Number of configurations and number of independent time zones (put 1 time zone to analyse the full trajectory)
 
@@ -48,10 +48,10 @@ Supplementary line if there are dipoles: name of the dipoles' file /space/ numbe
 
 14. If there are atoms with gaussian charge densities:
 
-Name of the file containing the fixed atoms charges for each configuration
+      Name of the file containing the fixed atoms charges for each configuration
 
-Number of lines with comments to skip for each config
+      Number of lines with comments to skip for each config
 
-Width of the gaussian for the metallic atoms in Anstroms
+      Width of the gaussian for the metallic atoms in Anstroms
 
-Shift to integrate before and after the physical ends of the cell (related to the Gaussian width of fluctuating charges)
+      Shift to integrate before and after the physical ends of the cell (related to the Gaussian width of fluctuating charges)
