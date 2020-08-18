@@ -1,2 +1,7 @@
 # Vargeom-Poisson
-A code to calculate the Poisson potential in model supercapacitors with electrodes of various geometries.
+
+* Program calculating the Poisson potential due to charges and dipoles (if present) in model supercapacitors with electrodes of various geometries.
+
+* To compile the program, you can use any c compiler, e.g.:
+
+      gcc -o Vargeom_Poisson.x Vargeom_Poisson.c -lm
