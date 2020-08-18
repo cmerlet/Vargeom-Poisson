@@ -22,7 +22,7 @@ The input file should provide the following information
 
       0 if no dipoles, 1 if dipoles
 
-      Supplementary line if there are dipoles: name of the dipoles' file /space/ number of columns (3 if just dipoles, 4 if indices in the first column)
+      Supplementary line if there are dipoles: name of the dipoles' file and number of columns (3 if just dipoles, 4 if indices in the first column)
 
 3. Number of configurations and number of independent time zones (put 1 time zone to analyse the full trajectory)
 
