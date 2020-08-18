@@ -5,3 +5,9 @@
 * To compile the program, you can use any c compiler, e.g.:
 
       gcc -o Vargeom_Poisson.x Vargeom_Poisson.c -lm
+
+* To execute the program, you just have to do:
+
+      ./program < inputfile
+      
+      
