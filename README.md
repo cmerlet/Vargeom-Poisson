@@ -18,7 +18,10 @@ The input file should provide the following information
 
 1. Name of the xyz file with the positions
 
-2. Value to indicate the existence of dipoles: 0 if no dipoles, 1 if dipoles
+2. Value to indicate the existence of dipoles: 
+
+0 if no dipoles, 1 if dipoles
+
 Supplementary line if there are dipoles: name of the dipoles' file /space/ number of columns (3 if just dipoles, 4 if indices in the first column)
 
 3. Number of configurations and number of independent time zones (put 1 time zone to analyse the full trajectory)
