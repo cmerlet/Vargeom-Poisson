@@ -44,7 +44,11 @@ Supplementary line if there are dipoles: name of the dipoles' file /space/ numbe
 13. Number of configurations to skip at the beginning of the files (put 0 to analyse the full trajectory)
 
 14. If there are atoms with gaussian charge densities:
+
 Name of the file containing the fixed atoms charges for each configuration
+
 Number of lines with comments to skip for each config
+
 Width of the gaussian for the metallic atoms in Anstroms
+
 Shift to integrate before and after the physical ends of the cell (related to the Gaussian width of fluctuating charges)
