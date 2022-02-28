@@ -105,6 +105,8 @@ int main ( void )
      for(i=((t-1)*nsteps+nskip+1);i<=(t*nsteps+nskip);i++)
         {
          if(i%100==0) printf("%d steps over %d\n",i,nconfigs);
+         /* ncomments lines not used at the beginning of each config in the wall charges file */ 
+         for(k=1;k<=ncomments;k++) fgets(ligne,L,in3);
          zero_matrices(); 
          calc_density(); 
          for(j=1;j<=nbox;j++) {Charge[j][t]+=qdensity[j]; Dip[j][t]+=dipdensity[j];}
@@ -435,9 +437,3 @@ double **dmatrix(int nl, int nc)
         }
  return m;
 }
-
-
-
-
-
-
